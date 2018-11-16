@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Magicloud</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!-- Scripts-->
+    <!--在线编辑器-->
+    <script src="js/src-min-noconflict/ace.js"></script>
+    <!-- Fonts -->
+
+</head>
+<body>
+<div id="app">
+    <login-component v-bind:is="login"></login-component>
+    <lock-screen-component></lock-screen-component>
+    <desktop-component  :refresh="refresh"></desktop-component>
+    <div id="rightmenu">
+        <div class="rightmenu" @mousedown="clickRefresh">刷新</div>
+        <div class="rightmenu-line"></div>
+        <!--<div class="rightmenu">新建文件夹</div>-->
+        <!--<div class="rightmenu">新建文件</div>-->
+        <!--<div class="rightmenu">上传</div>-->
+        <!--<div class="rightmenu">粘贴</div>-->
+    </div>
+</div>
+<!-- EndScripts-->
+<script src="js/app.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,9 @@
+{
+"type": "chrome",
+"content": "浏览器",
+"icon": "http://api.magicloud.top/icon/Google_Chrome_icon_(2011).png",
+"name": "Google Chrome",
+"menuType": "systemBox menu-default",
+"ext": "oexe",
+"path": ""
+}

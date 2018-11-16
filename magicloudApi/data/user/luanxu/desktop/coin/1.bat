@@ -1,0 +1,1 @@
+C:\wamp64\bin\apache\apache2.4.27\bin\ab.exe -n 100 -c 100 http://www.lzh.com/level2/coin/test.php

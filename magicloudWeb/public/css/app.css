@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+#rightmenu {
+  width: 0;
+  /*设置为0 隐藏自定义菜单*/
+  overflow: hidden;
+  /*隐藏溢出的元素*/
+  position: absolute;
+  /*自定义菜单相对与body元素进行定位*/
+  z-index: 9999;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 10px 80px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 10px 80px rgba(0, 0, 0, 0.4);
+}
+
+.rightmenu {
+  width: 190px;
+  height: 25px;
+  line-height: 25px;
+  padding: 0 10px;
+  font-size: 15px;
+}
+
+.rightmenu:hover {
+  background-color: #63acff;
+  color: #fff;
+}
+
+.rightmenu-line {
+  height: 2px;
+  line-height: 0;
+  border-bottom: 1px solid #eee;
+  margin: 2px 0 4px;
+}
+
